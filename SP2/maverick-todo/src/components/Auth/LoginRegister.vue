@@ -1,4 +1,3 @@
-
 <template>
 	<form @submit.prevent="submitForm">
 		<div class="row q-mb-md">

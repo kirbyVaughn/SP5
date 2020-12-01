@@ -1,4 +1,3 @@
-
 const routes = [
   {
     path: '/',
@@ -6,11 +5,11 @@ const routes = [
     children: [
       { 
         path: '', 
-        component: () => import('pages/page todo.vue') 
+        component: () => import('pages/PageTodo.vue') 
       },
       { 
         path: '/settings', 
-        component: () => import('pages/page settings.vue') 
+        component: () => import('pages/PageSettings.vue') 
       },
       { 
         path: '/auth', 
